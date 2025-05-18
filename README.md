@@ -28,7 +28,7 @@ cd hava-durumu-uygulamasi
 bash
 Copy
 Edit
-<pre>  docker build -t weatherapp-image .  
+<pre>  docker build -t weatherapp-image .  </pre> 
 3. Container’ı Başlatın
 bash
 Copy
@@ -44,13 +44,13 @@ Uygulama başarıyla çalıştıktan sonra şu adreslerden erişebilirsiniz:
 arduino
 Copy
 Edit
-<pre>  http://localhost:5000 <pre>
+<pre>  http://localhost:5000 </pre>
 Hava durumu verisi almak için (örneğin İstanbul):
 
 bash
 Copy
 Edit
-<pre>  http://localhost:5000/weather?city=istanbul <pre>
+<pre>  http://localhost:5000/weather?city=istanbul </pre>
 Bu endpoint; şehrin adını, sıcaklığı ve nem oranını JSON formatında döndürür.
 
 ## 🐳 Stopping & Cleaning Up
@@ -66,8 +66,8 @@ Yeniden kurulum yapmak isterseniz:
 bash
 Copy
 Edit
-<pre>  docker build -t weatherapp-image .  <pre>
- <pre>  docker run -d -p 5000:5000 --name weatherapp-container weatherapp-image  <pre>
+<pre>  docker build -t weatherapp-image .  </pre>
+<pre>  docker run -d -p 5000:5000 --name weatherapp-container weatherapp-image  </pre>
 🛠 Notlar
 app.py içinde app.run(host="0.0.0.0", port=5000) satırı yer almalıdır ki uygulama dışarıdan erişilebilir olsun.
 
