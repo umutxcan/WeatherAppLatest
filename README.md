@@ -22,7 +22,7 @@ Jenkins (Deployment için)
 bash
 Copy
 Edit
-git clone https://github.com/kullanici-adiniz/hava-durumu-uygulamasi.git
+git clone https://github.com/umutxcan/WeatherAppLatest.git
 cd hava-durumu-uygulamasi
 2. Docker İmajını Oluşturun
 bash
@@ -33,7 +33,7 @@ Edit
 bash
 Copy
 Edit
-docker run -d -p 5000:5000 --name weatherapp-container weatherapp-image
+<pre> docker run -d -p 5000:5000 --name weatherapp-container weatherapp-image </pre>
 Jenkins kullanıyorsanız, build ve deploy adımlarınızı otomatik hale getirebilirsiniz. Jenkinsfile içeriğine göre pipeline işlemleri yürütülür.
 
 ## 🌍 Accessing the App
