@@ -28,7 +28,7 @@ cd hava-durumu-uygulamasi
 bash
 Copy
 Edit
-<pre>  docker build -t weatherapp-image .  <pre>
+<pre>  docker build -t weatherapp-image .  
 3. Container’ı Başlatın
 bash
 Copy
