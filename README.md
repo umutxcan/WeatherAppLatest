@@ -1,4 +1,4 @@
- Hava Durumu Uygulaması (Flask + Docker + Jenkins)
+ ##  ☀️ Hava Durumu Uygulaması (Flask + Docker + Jenkins)
 Bu proje, Flask kullanılarak geliştirilmiş basit bir hava durumu uygulamasıdır. Uygulama, bir şehir adı girildiğinde o şehre ait hava durumu ve nem bilgisini sunar. Proje Docker ile containerize edilmiştir ve Jenkins ile otomatik deployment süreci kontrol edilmektedir.
 
  ## 📦 Contents
